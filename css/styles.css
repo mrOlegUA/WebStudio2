@@ -12,8 +12,8 @@
 .list {
   text-decoration: none;
   list-style: none;
-  color: inherit;
-}
+  font-style: normal;
+  }
 .link {
   text-decoration: none;
 }
@@ -71,10 +71,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--pressed-state, #404bbf);
 }
-.nahua {
-  font-style: normal;
-}
-
 /* --hero-- */
 .hero-img {
   background-color: var(--hero-background, #2e2f42);
@@ -193,4 +189,7 @@ body {
   text-align: center;
   color: var(--white-background, #ffffff);
   cursor: pointer;
+}
+.text-main {
+  color: var(--text-main, #434455);
 }
