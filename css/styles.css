@@ -9,7 +9,8 @@
 }
 
 .list {
-  list-style-type: none;
+  text-decoration: none;
+  list-style:none
 }
 body {
   background-color: var(--white-background, #ffffff);
@@ -151,24 +152,26 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--light-background, #f4f4fd);
-  text-decoration: none;
+ 
 }
 .text-footer {
   color: var(--light-background, #f4f4fd);
 }
 /* --page portfolio-- */
 
-/* --section filter-- */
+/* --portfolio-- */
 .button-filter {
   font-family: inherit;
   background: var(--light-background, #f4f4fd);
   border: 1px solid #e7e9fc;
   border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   font-weight: 500;
   display: flex;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.04em;
   color: var(--primary-brand, #4d5ae5);
 }
 .button-filter:hover,
@@ -178,17 +181,13 @@ body {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   font-weight: 500;
   display: flex;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.04em;
   color: var(--white-background, #ffffff);
   cursor: pointer;
 }
-/* --section portfolio-- */
-.nolink {
-  text-decoration: none;
-}
-
-/* --скажу як є, не знайшов як перевірити властивість наслідування кнопок у інстументах розробника в активному режимі, тому накидав у ховер те саме що і у спокійному стані... а потрібно якомога швидше здати на перевірку тому планую здати як є. -- */
