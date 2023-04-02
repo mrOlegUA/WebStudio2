@@ -8,10 +8,6 @@
   --white-background: #ffffff;
 }
 
-.nolink {
-  text-decoration: none;
-}
-
 .list {
   list-style-type: none;
 }
@@ -22,6 +18,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .text-main {
   color: var(--text-main, #434455);
@@ -29,38 +26,49 @@ body {
 
 /* --header-- */
 .logo-web {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-brand, #4d5ae5);
+  text-decoration: none;
 }
 .logo-black {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--hero-background, #2e2f42);
+  text-decoration: none;
 }
 .text-nav {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: var(--hero-background, #2e2f42);
+  text-decoration: none;
 }
 .text-nav:hover,
 .text-nav:focus {
   color: var(--pressed-state, #404bbf);
 }
 .link-contact {
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0.02em;
   color: var(--text-main, #434455);
 }
 .link-contact:hover,
 .link-contact:focus {
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0.02em;
   color: var(--pressed-state, #404bbf);
 }
 
@@ -78,8 +86,11 @@ body {
 .button-order {
   font-family: inherit;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
   display: flex;
   align-items: center;
+  letter-spacing: 0.04em;
   color: var(--white-background, #ffffff);
   background-color: var(--primary-brand, #4d5ae5);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -90,9 +101,12 @@ body {
 .button-order:focus {
   font-family: inherit;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
   display: flex;
   align-items: center;
-  color: #ff6347;
+  letter-spacing: 0.04em;
+  color: tomato;
   background: var(--pressed-state, #404bbf);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -103,17 +117,25 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--hero-background, #2e2f42);
 }
 
 /* --What are we doing-- */
 /* --Our Team-- */
+.our-team {
+  background-color: var(--light-background, #f4f4fd);
+}
+.background-white {
+  background-color: var(--white-background, #ffffff);
+}
 .text-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
+  letter-spacing: 0.02em;
   color: var(--hero-background, #2e2f42);
 }
 /* --footer-- */
@@ -125,9 +147,11 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--light-background, #f4f4fd);
+  text-decoration: none;
 }
 .text-footer {
   color: var(--light-background, #f4f4fd);
@@ -144,10 +168,12 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
+  letter-spacing: 0.04em;
   color: var(--primary-brand, #4d5ae5);
 }
 .button-filter:hover,
 .button-filter:focus {
+  font-family: inherit;
   background: var(--pressed-state, #404bbf);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -156,8 +182,13 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
+  letter-spacing: 0.04em;
   color: var(--white-background, #ffffff);
   cursor: pointer;
 }
 /* --section portfolio-- */
+.nolink {
+  text-decoration: none;
+}
+
 /* --скажу як є, не знайшов як перевірити властивість наслідування кнопок у інстументах розробника в активному режимі, тому накидав у ховер те саме що і у спокійному стані... а потрібно якомога швидше здати на перевірку тому планую здати як є. -- */
