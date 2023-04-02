@@ -15,7 +15,7 @@
   color: inherit;
 }
 .link {
-text-decoration:none;
+  text-decoration: none;
 }
 body {
   background-color: var(--white-background, #ffffff);
@@ -55,24 +55,24 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: var(--hero-background, #2e2f42);
-  text-decoration: none;
 }
 .text-nav:hover,
 .text-nav:focus {
   color: var(--pressed-state, #404bbf);
 }
 .link-contact {
-  text-decoration: none;
   font-style: normal;
   letter-spacing: 0.02em;
   color: var(--text-main, #434455);
 }
 .link-contact:hover,
 .link-contact:focus {
-  text-decoration: none;
   font-style: normal;
   letter-spacing: 0.02em;
   color: var(--pressed-state, #404bbf);
+}
+.nahua {
+  font-style: normal;
 }
 
 /* --hero-- */
