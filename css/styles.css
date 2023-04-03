@@ -22,7 +22,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  etter-spacing: 0.02em;
   color: var(--text-main, #434455);
 }
 /* --header-- */
@@ -107,7 +107,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  etter-spacing: 0.02em;
+  letter-spacing: 0.02em;
   color: var(--hero-background, #2e2f42);
 }
 
