@@ -78,6 +78,7 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: 0.02em;
   text-align: center;
   color: var(--white-background, #ffffff);
  
@@ -100,14 +101,13 @@ body {
 .button-order:focus {
   color: tomato;
   background: var(--pressed-state, #404bbf);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 /* --our advantages-- */
 .text-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
+  etter-spacing: 0.02em;
   color: var(--hero-background, #2e2f42);
 }
 
